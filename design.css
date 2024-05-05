@@ -1,0 +1,80 @@
+.profile
+{
+    border-radius:50%;
+    height:300px;
+}
+.menubar
+{
+    list-style: none;
+    position:fixed;
+    z-index:10;
+    top:0px;
+    cursor:pointer;
+    width:100%;
+    margin-top:0px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,194,249,1) 0%, rgba(0,255,192,1) 100%, rgba(255,249,30,1) 100%);
+    font-family:calibri;
+}
+.sections
+{
+    display:table-cell;
+    vertical-align:middle;
+}
+body
+{
+    margin:0;
+    padding-top:550px;
+    text-align:center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(249,36,116,1) 0%, rgba(255,249,30,1) 100%, rgba(0,255,226,1) 100%);
+}
+.links
+{
+    padding-right:25px;
+    padding-left:35px;
+    font-size:20px;
+    display:inline;
+}
+a
+{
+    text-decoration:none;
+}
+.sections
+{
+    font-family:calibri;
+    font-style:bold;
+}
+#education
+{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    font-style:bold;
+    color:aliceblue;
+    height:600px;
+}
+#aims
+{
+    background: rgb(69,252,145);
+    background: linear-gradient(90deg, rgba(69,252,145,1) 0%, rgba(29,253,239,1) 100%);
+}
+#contact
+{
+    background: rgb(0,255,196);
+    background: linear-gradient(90deg, rgba(0,255,196,1) 0%, rgba(70,29,253,1) 100%);
+}
+#contact h1
+{
+    color:coral;
+}
+#apps
+{
+    background: rgb(36,194,249);
+    background: linear-gradient(90deg, rgba(36,194,249,1) 0%, rgba(255,249,30,1) 100%);
+}
+#games
+{
+    background: rgb(189,36,249);
+    background: linear-gradient(53deg, rgba(189,36,249,1) 0%, rgba(30,224,255,1) 100%);
+    height:500px;
+}
